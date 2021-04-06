@@ -1,76 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/09965dd876.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="images/logo.png">
-    <title>Wynnlab | Home</title>
+<html lang="en-us" class="no-js">
 
-    <script>
-        //Dont Touch, this is the metod for copy the IP.
-            function copyMyText() {
-                 var textToCopy = document.getElementById("copyMe");
-                 textToCopy.select();
-                 document.execCommand("copy");
-            }
-            </script>
-</head>
-<body>
-    <div class="content">
-                <header>
-                    <nav class="links" style="--items: 5;">
-                        <a href="#">Home</a> <!--Your Link-->
-                        <a href="https://github.com/WynnLab/WynnLab">Github</a> <!--Your Link-->
-                        <a href="#" class="logo">Wynn<span>Lab</span></a><!--Your link o your name enterprise.-->
-                        <a href="sanctions">Information</a> <!--Your Link-->
-                        <a href="https://wynnlab.tk/faq.html">FAQ</a> <!--Your Link-->
-                        <span class="line"></span>
-                    </nav>
-                </header>
-                <div class="online">
-                        <input type="text" value="mc.wynnlab.tk" id="copyMe" readonly> <!--Write the IP of your server in "Your IP for Copy".-->
-                        <button onclick="copyMyText()">Copy IP</button>
-                </div>
-            <div class="banner">
-                 <!--<img src="images/banner.png" width="70%"> <!--Your Banner, Here modify he size.-->
-            </div>
-        </div>
+	<head>
+		<meta charset="utf-8">
+        <title>Wynnlab</title>
+        <meta name="description" content="The description should optimally be between 150-160 characters.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Madeon08">
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/font-awesome.css" />
 
-        <footer class="footer-distributed">
- 
-                <div class="footer-left">
-         
-                <h3>Wynn<span>Lab</span></h3>
-         
-                <p class="footer-company-name">WynnLab&copy; 2021</p>
-                </div>
-         
-                <div class="footer-center">
-         
-                <div>
-                <i class="fa fa-question-circle"></i>
-                <p><a href="https://discord.gg/7ktHKn2nZG">Discord</a></p> <!--Replace for your Discord Link or other link.-->
-                </div>
-         
-                </div>
-         
-                <div class="footer-right">
-         
-                <p class="footer-company-about">
-                <span>WynnLab</span>
-            Wynncraft Recreation as Minecraft 1.16 plugin
-			(I'm not part of the Wynncraft team.)
-                </p>
-         
-                </div>
-         
-                </footer>
-    </div>
-</body>
+
+        <!-- ================= Favicon ================== -->
+        <!-- Standard -->
+        <link rel="shortcut icon" href="img/favicon.png">
+        <!-- Retina iPad Touch Icon-->
+        <link rel="apple-touch-icon" sizes="144x144" href="img/favicon-retina-ipad.png">
+        <!-- Retina iPhone Touch Icon-->
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicon-retina-iphone.png">
+        <!-- Standard iPad Touch Icon--> 
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicon-standard-ipad.png">
+        <!-- Standard iPhone Touch Icon--> 
+        <link rel="apple-touch-icon" sizes="57x57" href="img/favicon-standard-iphone.png">
+
+        <!-- ============== Resources style ============== -->
+        <link rel="stylesheet" href="css/style.css" />
+
+		<!-- Modernizr runs quickly on page load to detect features -->
+		
+	</head>
+	
+	<body>
+
+		<!-- Page preloader -->
+		<div id="loading">
+			<div id="preloader">
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+
+		<!-- Overlay and Star effect -->
+		<div class="global-overlay">
+			<div class="overlay skew-part">
+
+				<div id='stars'></div>
+				<div id='stars2'></div>
+				<div id='stars3'></div>
+
+			</div>
+		</div>
+
+		<!-- START - Home/Left Part -->
+		<section id="left-side">
+
+			<!-- Your logo -->
+			<img src="img/logo.png" alt="" class="brand-logo" />
+
+			<div class="content">
+
+				<h1 class="text-intro opacity-0">play.wynnlab.tk<br></h1>
+
+				<p class="text-intro opacity-0">Have fun!</p>
+				<br>
+
+				<nav>
+					<ul>
+						<li>
+							<a href="https://github.com/WynnLab/WynnLab" class="light-btn text-intro opacity-0">Github</a>
+						</li>
+						<li>
+							<a href="https://discord.gg/7ktHKn2nZG" class="action-btn trigger text-intro opacity-0">Discord</a>
+						</li>
+						<li>
+							<a href="https://wynnlab.tk/faq.html" class="light-btn text-intro opacity-0">FAQ</a>
+						</li>
+					</ul>
+				</nav>
+
+			</div>
+
+			<!-- Social icons -->
+			<div class="social-icons">
+
+
+
+			</div>
+
+		</section>
+		<!-- END - Home/Left Part -->
+
+			<footer>
+
+				<p style="color:white">© Wynnlab.tk 2021 | We Are not a Part of Wynncraft Team</p>
+
+			</footer>
+
+		</section>
+
+	<!-- * Libraries jQuery, Easing and Bootstrap - Be careful to not remove them * -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.easings.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- PhotoSwipe Core JS file -->
+	<script src="js/velocity.min.js"></script> 
+
+	<!-- PhotoSwipe UI JS file -->
+	<script src="js/velocity.ui.min.js"></script> 
+
+	<!-- Slideshow/Image plugin -->
+	<script src="js/vegas.js"></script>
+	<!-- Main JS File -->
+	<script src="js/main.js"></script>
+	<script src="js/status.js"></script>
+	
+
+	</body>
+
 </html>
